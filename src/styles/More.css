@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115vh;
+  width: 191vh;
+  background-image: url("./rech.jpg"); /* Ajoutez cette ligne */
+  background-size: cover; /* Assure que l'image couvre tout l'arrière-plan */
+  background-position: center; /* Centre l'image de fond */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: rgba(
+    240,
+    240,
+    240,
+    0.1
+  ); /* Ajoute de la transparence pour mieux voir l'image de fond */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.rate-button {
+  background-color: #faff00;
+  color: #000;
+}
+
+.donate-button {
+  background-color: #00ff00;
+  color: #fff;
+}
+
+.support-button {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+button:focus {
+  outline: 2px solid #0000ff; /* Style du focus */
+}
